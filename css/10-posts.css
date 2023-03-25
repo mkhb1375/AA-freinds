@@ -1,0 +1,52 @@
+/* PHASE 4: Posts */
+
+.post-item{
+    position: relative;
+    display: block;
+    padding: 25px 0px;
+    padding-bottom:50px ;
+    border-top: 1px solid#ccc;
+}
+.post-item:first-of-type{
+    margin-top: 20px;
+}
+.post{
+    
+    display: block;
+    width: 100%;
+}
+
+.post h2{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.post p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.post .faded{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: gray;
+}
+
+.smt{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: min-content;
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+    white-space: pre;
+    cursor: pointer;
+}
+
+.smt a {
+    margin: 0 -8px;
+    
+}
